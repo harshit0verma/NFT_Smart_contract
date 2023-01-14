@@ -1,0 +1,20 @@
+[
+  "constructor(address,uint64,bytes32,uint256,uint256,uint32)",
+  "error Lottery_NotOpen()",
+  "error Lottery_UpkeepNotNeeded(uint256,uint256,uint256)",
+  "error Lottery__NotEnoughtETHEntered()",
+  "error OnlyCoordinatorCanFulfill(address,address)",
+  "error Raffle_TranferFailed()",
+  "event LotteryEnter(address indexed)",
+  "event RequestedRaffleWinner(uint256 indexed)",
+  "event WinnerPicked(address indexed)",
+  "function checkUpkeep(bytes) returns (bool, bytes)",
+  "function enterLottery() payable",
+  "function getLatestTimeStamp() view returns (uint256)",
+  "function getLotteryState() view returns (uint8)",
+  "function getNumberofPLayers() view returns (uint256)",
+  "function getPlayer(uint256) view returns (address)",
+  "function getentraceFee() view returns (uint256)",
+  "function performUpkeep(bytes)",
+  "function rawFulfillRandomWords(uint256,uint256[])"
+]
